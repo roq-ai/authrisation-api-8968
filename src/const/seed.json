@@ -1,0 +1,2522 @@
+[
+  {
+    "profile": [
+      {
+        "id": "64160d3f-2ea9-4901-a040-d48555a94294",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T01:27:13.715Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-23T18:58:19.768Z",
+        "updated_at": "2023-09-24T04:40:04.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd7f4e9a-dd03-405e-864b-e4468c839953",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T14:49:39.784Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-23T20:31:16.172Z",
+        "updated_at": "2023-09-23T23:22:12.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d089a50d-892d-4f67-acf1-c13772bc17a4",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "dob": "2023-09-24T10:42:57.980Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T04:04:45.769Z",
+        "updated_at": "2023-09-24T13:57:45.771Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c397e986-1625-4951-9c6b-6e5c0bb32ca0",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "dob": "2023-09-24T09:04:06.001Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T05:23:20.077Z",
+        "updated_at": "2023-09-24T13:14:32.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e71356f-e3e2-4c4d-98cb-c4faa53d6e59",
+        "first_name": "David",
+        "last_name": "Taylor",
+        "dob": "2023-09-24T02:18:22.190Z",
+        "address": "654 Maple St",
+        "phone_number": "444-333-2222",
+        "created_at": "2023-09-24T00:33:57.420Z",
+        "updated_at": "2023-09-24T09:53:26.482Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "8209ed85-e243-465d-90a4-d38ba9bcc9bf",
+        "password_reset_token": "abc123",
+        "password_reset_expires": "2023-09-24T07:37:34.436Z",
+        "password_updated_at": "2023-09-24T14:35:48.018Z",
+        "passwordless_token": "pqr678",
+        "multi_factor_auth_token": "456def",
+        "created_at": "2023-09-24T12:05:40.634Z",
+        "updated_at": "2023-09-24T07:39:24.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "079f3046-6b73-4bc0-9b01-3876b20a20a1",
+        "password_reset_token": "def456",
+        "password_reset_expires": "2023-09-23T23:18:03.895Z",
+        "password_updated_at": "2023-09-24T02:09:52.718Z",
+        "passwordless_token": "stu901",
+        "multi_factor_auth_token": "789ghi",
+        "created_at": "2023-09-24T10:51:03.615Z",
+        "updated_at": "2023-09-24T12:30:20.447Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82904a58-392d-48b7-a006-e5b6b4f1de4a",
+        "password_reset_token": "ghi789",
+        "password_reset_expires": "2023-09-24T09:15:11.685Z",
+        "password_updated_at": "2023-09-23T18:41:23.497Z",
+        "passwordless_token": "vwx234",
+        "multi_factor_auth_token": "012jkl",
+        "created_at": "2023-09-23T21:57:35.464Z",
+        "updated_at": "2023-09-23T19:04:03.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04fa2867-194c-490a-b04b-d2b1b6fed3e1",
+        "password_reset_token": "jkl012",
+        "password_reset_expires": "2023-09-23T17:33:34.952Z",
+        "password_updated_at": "2023-09-24T14:21:19.158Z",
+        "passwordless_token": "yz567",
+        "multi_factor_auth_token": "345mno",
+        "created_at": "2023-09-23T20:47:52.166Z",
+        "updated_at": "2023-09-24T04:40:32.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1a0f151-3330-462c-9282-ea7dd217da1e",
+        "password_reset_token": "mno345",
+        "password_reset_expires": "2023-09-24T06:22:41.719Z",
+        "password_updated_at": "2023-09-23T17:15:26.788Z",
+        "passwordless_token": "123abc",
+        "multi_factor_auth_token": "678pqr",
+        "created_at": "2023-09-24T13:45:36.578Z",
+        "updated_at": "2023-09-23T19:26:43.629Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "ef89c7d5-f455-4efc-9d4a-39c4a33318dc",
+        "error_code": 35425,
+        "error_message": "Error 1",
+        "occurred_at": "2023-09-23T20:34:17.962Z",
+        "created_at": "2023-09-24T10:10:14.478Z",
+        "updated_at": "2023-09-24T16:04:25.351Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da18646e-3bb2-4ca2-a4fa-80f5efdc38e2",
+        "error_code": 65327,
+        "error_message": "Error 2",
+        "occurred_at": "2023-09-24T16:15:27.930Z",
+        "created_at": "2023-09-24T08:17:41.387Z",
+        "updated_at": "2023-09-24T03:43:38.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51ca76f6-a620-44b3-84c2-c67bc2854f84",
+        "error_code": 68196,
+        "error_message": "Error 3",
+        "occurred_at": "2023-09-24T04:29:31.866Z",
+        "created_at": "2023-09-23T17:43:57.063Z",
+        "updated_at": "2023-09-24T00:50:20.626Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9efbe2ff-f36a-40c3-a2ec-16050e7f178a",
+        "error_code": 97670,
+        "error_message": "Error 4",
+        "occurred_at": "2023-09-24T03:47:28.102Z",
+        "created_at": "2023-09-23T18:45:07.173Z",
+        "updated_at": "2023-09-23T21:17:56.744Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ff1086f-adce-41a1-8d14-d024f009793a",
+        "error_code": 24637,
+        "error_message": "Error 5",
+        "occurred_at": "2023-09-23T18:01:17.443Z",
+        "created_at": "2023-09-23T20:16:45.530Z",
+        "updated_at": "2023-09-23T22:44:13.260Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "1e45d3c9-61fc-4822-8064-ea68ec26e7bd",
+        "jwt_token": "abc123xyz",
+        "expires_at": "2023-09-24T15:15:26.526Z",
+        "created_at": "2023-09-24T12:26:49.545Z",
+        "updated_at": "2023-09-24T13:59:23.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc79d619-ff30-4fc2-a535-cc997fc8a3ba",
+        "jwt_token": "def456uvw",
+        "expires_at": "2023-09-24T00:09:04.748Z",
+        "created_at": "2023-09-23T22:56:01.709Z",
+        "updated_at": "2023-09-24T08:33:24.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da79c45b-e8fa-47ac-97b9-6eacd03cab41",
+        "jwt_token": "ghi789rst",
+        "expires_at": "2023-09-24T09:59:23.483Z",
+        "created_at": "2023-09-24T08:15:44.874Z",
+        "updated_at": "2023-09-24T14:10:09.665Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9f2cbaf-d236-433e-a875-a92a4609031a",
+        "jwt_token": "jkl012pqr",
+        "expires_at": "2023-09-24T07:10:08.246Z",
+        "created_at": "2023-09-24T15:23:13.124Z",
+        "updated_at": "2023-09-24T00:42:44.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2aa98428-ed77-4436-aad1-8e9a7f13a67b",
+        "jwt_token": "mno345lmn",
+        "expires_at": "2023-09-24T11:48:36.198Z",
+        "created_at": "2023-09-24T05:41:59.430Z",
+        "updated_at": "2023-09-24T02:12:05.554Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3925bda9-ab4f-44b9-ad7a-4d1c589ab339",
+        "email": "Berta.Bergstrom@roq.tech",
+        "firstName": "Naomie",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77810679",
+        "tenantId": null
+      },
+      {
+        "reference": "f9736af0-5780-4f01-b463-05ef412137f5",
+        "email": "Sigurd.Schumm67@roq.tech",
+        "firstName": "Kaitlyn",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66874245",
+        "tenantId": null
+      },
+      {
+        "reference": "0a389db8-626d-4040-afb0-d8f819ac462f",
+        "email": "Nora_Bergnaum@roq.tech",
+        "firstName": "Aurelio",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27731434",
+        "tenantId": null
+      },
+      {
+        "reference": "7391ac70-3f02-445c-a557-3da3b462a71b",
+        "email": "Demond_Braun99@roq.tech",
+        "firstName": "Cleora",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac377942-8328-49e8-a6d7-60d218c659d8",
+        "email": "Raegan44@roq.tech",
+        "firstName": "Kameron",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "0ab3993b-efc4-45e6-ad93-44c89a2af26e",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T08:46:50.844Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-24T12:56:45.130Z",
+        "updated_at": "2023-09-24T12:20:49.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2368d7b2-53b9-49e1-bae0-9c014094dec8",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T07:42:25.055Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-23T23:19:40.634Z",
+        "updated_at": "2023-09-24T11:46:38.333Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bebbaa4-7d09-4877-ae6e-d66b97b8b81e",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T03:31:10.946Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T12:15:48.386Z",
+        "updated_at": "2023-09-23T19:53:41.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a08c2522-7a3e-4495-ba57-49687fcf5011",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T06:59:15.519Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T14:43:31.681Z",
+        "updated_at": "2023-09-24T01:51:07.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4da4abf9-abb7-4d50-926a-fe9abefd048e",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "dob": "2023-09-24T13:16:31.936Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T04:33:49.091Z",
+        "updated_at": "2023-09-24T16:35:53.317Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "8d411745-ff60-49d6-b15b-9908126ff41a",
+        "password_reset_token": "abc123",
+        "password_reset_expires": "2023-09-24T12:25:59.556Z",
+        "password_updated_at": "2023-09-24T07:24:39.670Z",
+        "passwordless_token": "pqr678",
+        "multi_factor_auth_token": "456def",
+        "created_at": "2023-09-24T14:40:53.889Z",
+        "updated_at": "2023-09-24T04:23:27.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e695fbb-4641-4c24-bf43-66f0c85b3c08",
+        "password_reset_token": "def456",
+        "password_reset_expires": "2023-09-24T15:53:08.185Z",
+        "password_updated_at": "2023-09-24T16:08:31.780Z",
+        "passwordless_token": "stu901",
+        "multi_factor_auth_token": "789ghi",
+        "created_at": "2023-09-23T20:41:51.085Z",
+        "updated_at": "2023-09-23T20:34:52.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e99e5b9d-f624-4e83-b90b-49f7af3eeb16",
+        "password_reset_token": "ghi789",
+        "password_reset_expires": "2023-09-24T06:10:09.810Z",
+        "password_updated_at": "2023-09-24T13:22:34.713Z",
+        "passwordless_token": "vwx234",
+        "multi_factor_auth_token": "012jkl",
+        "created_at": "2023-09-24T13:51:36.421Z",
+        "updated_at": "2023-09-24T01:32:13.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96074a77-a808-4750-8f88-10ab57ce0890",
+        "password_reset_token": "jkl012",
+        "password_reset_expires": "2023-09-23T21:51:59.031Z",
+        "password_updated_at": "2023-09-24T00:57:43.287Z",
+        "passwordless_token": "yz567",
+        "multi_factor_auth_token": "345mno",
+        "created_at": "2023-09-24T10:55:15.008Z",
+        "updated_at": "2023-09-24T14:53:20.468Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3593e826-9bb5-4e07-8b78-e05b99f19cc1",
+        "password_reset_token": "mno345",
+        "password_reset_expires": "2023-09-23T17:18:26.633Z",
+        "password_updated_at": "2023-09-23T19:32:50.642Z",
+        "passwordless_token": "123abc",
+        "multi_factor_auth_token": "678pqr",
+        "created_at": "2023-09-24T15:40:44.796Z",
+        "updated_at": "2023-09-24T13:38:14.680Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "132680d2-6439-4340-8637-405df5e78ec6",
+        "error_code": 82063,
+        "error_message": "Invalid credentials",
+        "occurred_at": "2023-09-24T04:41:38.643Z",
+        "created_at": "2023-09-23T21:38:16.058Z",
+        "updated_at": "2023-09-24T05:35:27.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fae9d750-d385-44c7-9614-38636fa6ad5c",
+        "error_code": 20951,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-23T21:43:01.079Z",
+        "created_at": "2023-09-23T20:15:19.198Z",
+        "updated_at": "2023-09-24T09:53:36.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b49b34d5-5328-4905-abb6-21fa906a2b4e",
+        "error_code": 79795,
+        "error_message": "Resource not found",
+        "occurred_at": "2023-09-24T00:50:07.355Z",
+        "created_at": "2023-09-24T01:33:16.204Z",
+        "updated_at": "2023-09-23T18:54:44.250Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa1a46d0-32f9-40fe-aec2-d9a9ec1ab77c",
+        "error_code": 94427,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-24T16:31:41.455Z",
+        "created_at": "2023-09-24T10:53:20.818Z",
+        "updated_at": "2023-09-23T18:32:10.810Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1dc8990-c280-44dd-9221-210c739f4f8d",
+        "error_code": 8287,
+        "error_message": "Validation failed",
+        "occurred_at": "2023-09-23T19:59:54.228Z",
+        "created_at": "2023-09-24T11:29:37.843Z",
+        "updated_at": "2023-09-24T14:41:39.341Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "9f3be43f-9221-423d-9486-3c5a760b753e",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T02:19:18.638Z",
+        "created_at": "2023-09-24T04:49:02.674Z",
+        "updated_at": "2023-09-24T01:49:13.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613d9977-9ad4-4fad-8932-391f3f4a353e",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T07:13:35.893Z",
+        "created_at": "2023-09-24T08:25:23.316Z",
+        "updated_at": "2023-09-24T09:18:43.714Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db5f42f2-f31c-469d-bae2-f9dad2168b74",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T16:08:02.381Z",
+        "created_at": "2023-09-23T22:46:45.968Z",
+        "updated_at": "2023-09-24T11:59:29.388Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b39fd0a-a861-4073-a031-e0fba3f64f3e",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T05:02:07.164Z",
+        "created_at": "2023-09-24T09:47:41.317Z",
+        "updated_at": "2023-09-23T19:21:42.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2068b7bd-bfa9-4e52-ba2d-3180e071e217",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T14:15:03.955Z",
+        "created_at": "2023-09-24T03:37:51.891Z",
+        "updated_at": "2023-09-24T05:15:05.545Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c04beb73-7403-419c-91e8-3a56a34a6ba7",
+        "email": "Orrin.Feest83@roq.tech",
+        "firstName": "Jace",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53835035",
+        "tenantId": null
+      },
+      {
+        "reference": "c0c7d2a2-1cf3-4f4c-ad67-b312e6f39c03",
+        "email": "Victoria87@roq.tech",
+        "firstName": "Brad",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86218684",
+        "tenantId": null
+      },
+      {
+        "reference": "a9557f78-af35-45ce-b067-b0a538f51c84",
+        "email": "Isabell.Kunze@roq.tech",
+        "firstName": "Jarrett",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/4.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f7dc9b7-f28f-4b5c-8fbc-a1fe77bfb4f0",
+        "email": "Thea_Koepp68@roq.tech",
+        "firstName": "Magnus",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ce8ea0e-2b23-4fe5-ae2d-39ea058f71f4",
+        "email": "Zora20@roq.tech",
+        "firstName": "Abdiel",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39805036",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "8cd70fb8-90ba-40ce-bcc3-1e25361a3855",
+        "first_name": "John",
+        "last_name": "Smith",
+        "dob": "2023-09-24T03:05:53.452Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-24T01:14:51.599Z",
+        "updated_at": "2023-09-24T15:45:30.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f3d7fdc-5e09-4285-96bc-8bdba769dd73",
+        "first_name": "Jane",
+        "last_name": "Johnson",
+        "dob": "2023-09-23T20:21:25.423Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T11:47:03.264Z",
+        "updated_at": "2023-09-24T00:26:43.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d93e019a-9faa-490e-b230-a916a41b511b",
+        "first_name": "Michael",
+        "last_name": "Williams",
+        "dob": "2023-09-24T06:03:36.353Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T13:52:36.105Z",
+        "updated_at": "2023-09-23T22:51:10.590Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe410b50-5e04-4105-909d-6b6b56775df0",
+        "first_name": "Emily",
+        "last_name": "Jones",
+        "dob": "2023-09-24T02:56:01.311Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T04:22:06.761Z",
+        "updated_at": "2023-09-24T14:44:41.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da19210e-7a6e-4b38-8586-a03f91c486aa",
+        "first_name": "David",
+        "last_name": "Brown",
+        "dob": "2023-09-24T00:12:03.801Z",
+        "address": "654 Maple St",
+        "phone_number": "444-555-6666",
+        "created_at": "2023-09-24T10:19:03.691Z",
+        "updated_at": "2023-09-23T20:11:48.913Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "14af5e19-1036-4d5d-b9ab-f6486836f9b0",
+        "password_reset_token": "abc123",
+        "password_reset_expires": "2023-09-24T04:04:12.591Z",
+        "password_updated_at": "2023-09-24T04:26:19.160Z",
+        "passwordless_token": "pqr678",
+        "multi_factor_auth_token": "123abc",
+        "created_at": "2023-09-24T07:44:58.432Z",
+        "updated_at": "2023-09-23T21:30:20.486Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a27ed0b-ad75-484d-8af3-7ce810f3c111",
+        "password_reset_token": "def456",
+        "password_reset_expires": "2023-09-23T18:38:37.371Z",
+        "password_updated_at": "2023-09-24T12:42:22.741Z",
+        "passwordless_token": "stu901",
+        "multi_factor_auth_token": "456def",
+        "created_at": "2023-09-24T01:58:26.708Z",
+        "updated_at": "2023-09-24T08:18:11.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c8f9025-fcaf-48d0-bf77-3aa7bdf3612e",
+        "password_reset_token": "ghi789",
+        "password_reset_expires": "2023-09-23T21:36:22.931Z",
+        "password_updated_at": "2023-09-23T21:26:02.891Z",
+        "passwordless_token": "vwx234",
+        "multi_factor_auth_token": "789ghi",
+        "created_at": "2023-09-24T12:05:46.957Z",
+        "updated_at": "2023-09-24T06:41:10.404Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3d5947e-ff5f-4674-9f66-7786162b3ca6",
+        "password_reset_token": "jkl012",
+        "password_reset_expires": "2023-09-24T15:59:07.013Z",
+        "password_updated_at": "2023-09-24T10:42:28.602Z",
+        "passwordless_token": "yz567",
+        "multi_factor_auth_token": "012jkl",
+        "created_at": "2023-09-24T02:57:53.496Z",
+        "updated_at": "2023-09-24T07:29:51.506Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d309698b-7939-4be8-8b20-d41351beb05c",
+        "password_reset_token": "mno345",
+        "password_reset_expires": "2023-09-23T20:54:31.687Z",
+        "password_updated_at": "2023-09-24T11:26:02.853Z",
+        "passwordless_token": "abc890",
+        "multi_factor_auth_token": "345mno",
+        "created_at": "2023-09-23T21:07:59.789Z",
+        "updated_at": "2023-09-23T22:38:00.439Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "667970e2-ce23-4331-a2ad-e2188d48ceeb",
+        "error_code": 85152,
+        "error_message": "An error occurred",
+        "occurred_at": "2023-09-24T09:24:32.197Z",
+        "created_at": "2023-09-23T19:39:50.088Z",
+        "updated_at": "2023-09-24T12:52:35.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b74bba1-a96f-4245-87f1-ef27816ef0b4",
+        "error_code": 45502,
+        "error_message": "Invalid input",
+        "occurred_at": "2023-09-24T06:04:13.101Z",
+        "created_at": "2023-09-24T16:06:46.316Z",
+        "updated_at": "2023-09-24T11:36:23.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3631be8-437d-44f7-be6f-afa9a471afc1",
+        "error_code": 45518,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T14:41:46.422Z",
+        "created_at": "2023-09-23T19:48:01.456Z",
+        "updated_at": "2023-09-24T14:58:12.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e77ad5-bf7e-422b-8cc7-720f436d8922",
+        "error_code": 21948,
+        "error_message": "Resource not found",
+        "occurred_at": "2023-09-24T00:28:21.909Z",
+        "created_at": "2023-09-24T10:45:46.207Z",
+        "updated_at": "2023-09-23T18:54:26.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14890162-c205-478b-9f19-7f61b02d44d8",
+        "error_code": 74650,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-24T04:47:13.082Z",
+        "created_at": "2023-09-24T03:11:22.981Z",
+        "updated_at": "2023-09-24T08:56:56.616Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "d3a7702d-070b-46b2-8399-a8339ae2c3ef",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T05:11:23.292Z",
+        "created_at": "2023-09-23T22:07:16.037Z",
+        "updated_at": "2023-09-23T23:27:54.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15267d5e-51f0-40c4-b89b-2e8c3137a1b9",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T04:15:28.305Z",
+        "created_at": "2023-09-24T00:20:03.799Z",
+        "updated_at": "2023-09-24T10:58:02.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82af9acc-fd0d-4802-9ce1-f8db4fe2ef89",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T03:37:48.003Z",
+        "created_at": "2023-09-24T06:40:00.249Z",
+        "updated_at": "2023-09-23T19:04:10.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64ec45c1-6513-471f-afae-cd515b032d0a",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T11:08:00.150Z",
+        "created_at": "2023-09-23T23:39:16.059Z",
+        "updated_at": "2023-09-24T15:40:26.921Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9034718-63b0-47e4-bd48-d9102433f4a3",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T01:59:08.362Z",
+        "created_at": "2023-09-24T06:18:58.645Z",
+        "updated_at": "2023-09-24T14:51:04.875Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "442e5cd4-dc64-4690-a9c9-08a2af3ee629",
+        "email": "Zakary18@roq.tech",
+        "firstName": "Alessia",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/892.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbb9582a-8b81-4de6-a8e7-51f41b9cf514",
+        "email": "Cedrick7@roq.tech",
+        "firstName": "Saige",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61f27e9e-23f6-461e-9219-24bd9d631147",
+        "email": "Robb_Heathcote@roq.tech",
+        "firstName": "Stephan",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4941445",
+        "tenantId": null
+      },
+      {
+        "reference": "f1ab6290-c926-4e50-a139-dd50226829bb",
+        "email": "Retta17@roq.tech",
+        "firstName": "Gladys",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65045527",
+        "tenantId": null
+      },
+      {
+        "reference": "aac044a9-843e-4cb0-8b3b-c43bf7c9a7dc",
+        "email": "Kira.Hettinger@roq.tech",
+        "firstName": "Retha",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/626.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "67658ac7-6304-4174-ad5d-47af9158b4c9",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T10:42:54.228Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-23T22:47:47.974Z",
+        "updated_at": "2023-09-23T22:53:04.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0310dfc-269f-4aa8-acd4-49ee78c8b821",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T06:02:43.870Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T13:53:11.453Z",
+        "updated_at": "2023-09-24T04:07:10.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a70c856-ddf3-419e-a145-40b744e3d544",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T05:50:45.029Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-23T23:04:57.618Z",
+        "updated_at": "2023-09-24T08:40:05.212Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df24893c-3831-4b66-8a4a-b8496095ea54",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T08:43:21.738Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T04:21:18.150Z",
+        "updated_at": "2023-09-23T21:56:07.657Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c2fbc7d-3219-4f40-80d7-7245740dd601",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "dob": "2023-09-23T18:31:22.311Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T14:38:35.857Z",
+        "updated_at": "2023-09-24T05:26:02.022Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "c68f90a3-1422-46fa-b61c-46418e27bffc",
+        "password_reset_token": "abcd1234",
+        "password_reset_expires": "2023-09-24T03:21:45.489Z",
+        "password_updated_at": "2023-09-24T02:57:26.566Z",
+        "passwordless_token": "abcd1234",
+        "multi_factor_auth_token": "abcd1234",
+        "created_at": "2023-09-24T14:08:55.073Z",
+        "updated_at": "2023-09-24T05:29:25.785Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8fdf5c5-898b-459f-a87c-14416e90b348",
+        "password_reset_token": "efgh5678",
+        "password_reset_expires": "2023-09-24T14:19:08.816Z",
+        "password_updated_at": "2023-09-23T17:16:30.602Z",
+        "passwordless_token": "efgh5678",
+        "multi_factor_auth_token": "efgh5678",
+        "created_at": "2023-09-24T07:25:05.174Z",
+        "updated_at": "2023-09-24T06:08:07.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b71133a-9f9d-4e44-9d9c-da1223c5f95f",
+        "password_reset_token": "ijkl9012",
+        "password_reset_expires": "2023-09-24T03:42:07.888Z",
+        "password_updated_at": "2023-09-24T16:09:03.173Z",
+        "passwordless_token": "ijkl9012",
+        "multi_factor_auth_token": "ijkl9012",
+        "created_at": "2023-09-24T10:42:27.206Z",
+        "updated_at": "2023-09-23T18:05:19.279Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48c2e800-fcd3-4a38-a95f-8cea67a7bd5e",
+        "password_reset_token": "mnop3456",
+        "password_reset_expires": "2023-09-24T02:12:51.604Z",
+        "password_updated_at": "2023-09-24T02:05:02.047Z",
+        "passwordless_token": "mnop3456",
+        "multi_factor_auth_token": "mnop3456",
+        "created_at": "2023-09-24T15:25:32.389Z",
+        "updated_at": "2023-09-24T13:31:04.953Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d80a4d2-64c4-4a21-a0a5-8d3279f114c8",
+        "password_reset_token": "qrst7890",
+        "password_reset_expires": "2023-09-24T11:46:19.115Z",
+        "password_updated_at": "2023-09-24T04:09:54.345Z",
+        "passwordless_token": "qrst7890",
+        "multi_factor_auth_token": "qrst7890",
+        "created_at": "2023-09-23T21:02:40.985Z",
+        "updated_at": "2023-09-24T11:15:40.239Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "79ea8cc5-e3c5-461a-a411-7a1b5eaa4a00",
+        "error_code": 13360,
+        "error_message": "An error occurred",
+        "occurred_at": "2023-09-24T09:17:38.317Z",
+        "created_at": "2023-09-24T07:02:10.300Z",
+        "updated_at": "2023-09-24T16:51:33.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23f84aac-44e6-4969-b124-2587272e3c54",
+        "error_code": 84348,
+        "error_message": "Invalid input",
+        "occurred_at": "2023-09-24T01:36:58.186Z",
+        "created_at": "2023-09-24T10:15:14.904Z",
+        "updated_at": "2023-09-24T12:09:40.098Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa40c15-632c-455e-a270-184eb613ec95",
+        "error_code": 49639,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T06:55:28.769Z",
+        "created_at": "2023-09-24T00:44:38.973Z",
+        "updated_at": "2023-09-24T10:20:54.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d5079e2-6d6b-45cd-95fc-c10532eccf0e",
+        "error_code": 76110,
+        "error_message": "Resource not found",
+        "occurred_at": "2023-09-24T16:16:38.365Z",
+        "created_at": "2023-09-23T23:04:19.706Z",
+        "updated_at": "2023-09-23T21:18:31.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e37c95b8-0324-46e4-a66e-fd0b4eea7623",
+        "error_code": 40686,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-24T10:50:20.120Z",
+        "created_at": "2023-09-24T11:12:21.128Z",
+        "updated_at": "2023-09-24T02:41:03.995Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "b23750b6-973e-404c-adb2-b7c149ceeb55",
+        "jwt_token": "abcdef123456",
+        "expires_at": "2023-09-24T16:13:01.245Z",
+        "created_at": "2023-09-24T09:31:30.107Z",
+        "updated_at": "2023-09-24T15:56:14.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f776a0b-45e2-4740-b056-710207009360",
+        "jwt_token": "ghijkl789012",
+        "expires_at": "2023-09-23T19:36:35.988Z",
+        "created_at": "2023-09-24T10:56:24.636Z",
+        "updated_at": "2023-09-24T05:39:11.112Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4389eba-7466-4dfd-b8c8-19e1b58711de",
+        "jwt_token": "mnopqr345678",
+        "expires_at": "2023-09-24T10:25:58.843Z",
+        "created_at": "2023-09-24T14:01:26.730Z",
+        "updated_at": "2023-09-24T08:22:35.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da0cd056-e503-46df-8d49-818b7ed4e2af",
+        "jwt_token": "stuvwx901234",
+        "expires_at": "2023-09-24T16:28:05.605Z",
+        "created_at": "2023-09-23T22:56:52.155Z",
+        "updated_at": "2023-09-24T10:58:06.781Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb26c43-69dd-4127-9694-b5f6ee7b29c3",
+        "jwt_token": "yzabcd567890",
+        "expires_at": "2023-09-24T15:43:41.658Z",
+        "created_at": "2023-09-23T22:19:46.966Z",
+        "updated_at": "2023-09-24T11:55:12.917Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "12ca34e3-1817-4fd1-bd8d-a9cc39e52d6f",
+        "email": "Jailyn50@roq.tech",
+        "firstName": "Treva",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59007211",
+        "tenantId": null
+      },
+      {
+        "reference": "b7856158-058e-4dd5-b1f3-2d26e7ab2d59",
+        "email": "Roger8@roq.tech",
+        "firstName": "Edison",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/766.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "076582e1-b8fc-41a0-89cf-7b75a0d2db5e",
+        "email": "Mandy_Mills@roq.tech",
+        "firstName": "Godfrey",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46964297",
+        "tenantId": null
+      },
+      {
+        "reference": "e4955a5c-7cb2-4b42-a805-bc5d40bfe2c0",
+        "email": "Lucienne45@roq.tech",
+        "firstName": "Haylee",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62990607",
+        "tenantId": null
+      },
+      {
+        "reference": "a18e320f-fe37-462d-a94b-36ba26408735",
+        "email": "Haley_Friesen@roq.tech",
+        "firstName": "Lincoln",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1099.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "db7a285a-44c8-4f26-91e5-7905bb1bdd05",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T04:05:15.184Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-24T05:40:35.881Z",
+        "updated_at": "2023-09-23T22:11:02.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a096717c-b5ed-484f-b5cb-a54959e504b8",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T09:17:01.868Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-23T23:52:05.142Z",
+        "updated_at": "2023-09-24T05:34:27.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee7ad2ff-a1b5-4532-8b51-b6cc159c7d78",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T10:53:54.776Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T12:22:16.424Z",
+        "updated_at": "2023-09-24T10:43:14.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63aa33ae-66fb-4d80-bff7-e2e5e1b07c7e",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T05:17:46.878Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-23T17:39:11.605Z",
+        "updated_at": "2023-09-23T22:05:51.731Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69137b56-7b63-47d2-910c-70110ddf2d04",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "dob": "2023-09-24T13:57:36.770Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-23T19:33:51.747Z",
+        "updated_at": "2023-09-23T21:24:00.006Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "3480c4b0-08ed-4e88-9b46-581678dd1246",
+        "password_reset_token": "abcd1234",
+        "password_reset_expires": "2023-09-24T02:23:46.945Z",
+        "password_updated_at": "2023-09-24T05:24:50.528Z",
+        "passwordless_token": "abcd1234",
+        "multi_factor_auth_token": "abcd1234",
+        "created_at": "2023-09-23T21:29:48.346Z",
+        "updated_at": "2023-09-24T14:51:26.198Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fedf012-fba5-4339-86df-67c39fab5476",
+        "password_reset_token": "efgh5678",
+        "password_reset_expires": "2023-09-23T23:07:20.782Z",
+        "password_updated_at": "2023-09-24T03:41:44.565Z",
+        "passwordless_token": "efgh5678",
+        "multi_factor_auth_token": "efgh5678",
+        "created_at": "2023-09-24T00:16:22.006Z",
+        "updated_at": "2023-09-24T04:08:44.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1244dcce-c2fc-48b7-a29e-241e148b6d02",
+        "password_reset_token": "ijkl9012",
+        "password_reset_expires": "2023-09-24T03:02:56.456Z",
+        "password_updated_at": "2023-09-24T00:06:55.534Z",
+        "passwordless_token": "ijkl9012",
+        "multi_factor_auth_token": "ijkl9012",
+        "created_at": "2023-09-24T11:40:08.914Z",
+        "updated_at": "2023-09-24T12:42:51.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ede9414-8151-407b-a8d3-0dbcfb4032ac",
+        "password_reset_token": "mnop3456",
+        "password_reset_expires": "2023-09-24T09:17:09.536Z",
+        "password_updated_at": "2023-09-24T01:33:56.351Z",
+        "passwordless_token": "mnop3456",
+        "multi_factor_auth_token": "mnop3456",
+        "created_at": "2023-09-24T08:24:38.997Z",
+        "updated_at": "2023-09-23T19:11:59.065Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a5b776f-b8c7-489d-b418-8a4dd0ea161d",
+        "password_reset_token": "qrst7890",
+        "password_reset_expires": "2023-09-23T23:29:03.516Z",
+        "password_updated_at": "2023-09-23T18:37:15.591Z",
+        "passwordless_token": "qrst7890",
+        "multi_factor_auth_token": "qrst7890",
+        "created_at": "2023-09-23T17:14:01.450Z",
+        "updated_at": "2023-09-23T19:45:54.056Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "c36e155b-644d-454a-84e0-eefc0db477b0",
+        "error_code": 19711,
+        "error_message": "Invalid input",
+        "occurred_at": "2023-09-23T18:56:15.585Z",
+        "created_at": "2023-09-24T16:39:38.946Z",
+        "updated_at": "2023-09-24T10:10:36.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d52437a7-5982-4d01-9455-23b0cd7f5ed8",
+        "error_code": 63269,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T07:07:14.033Z",
+        "created_at": "2023-09-24T03:05:43.758Z",
+        "updated_at": "2023-09-24T06:44:49.302Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f376bedf-58d6-487d-9a56-3286005a9e94",
+        "error_code": 30839,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-24T01:33:24.303Z",
+        "created_at": "2023-09-24T04:41:18.657Z",
+        "updated_at": "2023-09-24T03:22:50.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834569f7-0506-48bb-b00e-2bc7605c6687",
+        "error_code": 63702,
+        "error_message": "Resource not found",
+        "occurred_at": "2023-09-23T17:35:16.445Z",
+        "created_at": "2023-09-24T00:31:07.068Z",
+        "updated_at": "2023-09-23T20:49:49.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08fcb6d9-e873-4d8c-9459-3daf686f402f",
+        "error_code": 35671,
+        "error_message": "Authentication failed",
+        "occurred_at": "2023-09-24T05:51:45.153Z",
+        "created_at": "2023-09-24T04:34:12.250Z",
+        "updated_at": "2023-09-24T15:24:45.330Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "ee5c93fa-097c-42c6-ac78-a5e63c633404",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T08:12:12.918Z",
+        "created_at": "2023-09-24T15:26:11.524Z",
+        "updated_at": "2023-09-23T23:39:37.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41db7bcd-d452-443d-80fa-6b45087052b8",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T22:13:33.738Z",
+        "created_at": "2023-09-24T14:38:44.252Z",
+        "updated_at": "2023-09-23T21:06:49.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f4e46e9-dcc6-47d8-ac2d-0a10ebb0171d",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T22:48:31.968Z",
+        "created_at": "2023-09-24T15:36:30.516Z",
+        "updated_at": "2023-09-23T22:41:59.154Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "656eeb73-5194-4c81-9780-ee8bda2eecc0",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T21:36:43.689Z",
+        "created_at": "2023-09-23T20:42:09.144Z",
+        "updated_at": "2023-09-23T19:19:50.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0912843-2597-41ad-b899-c6774db845d5",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T00:05:29.986Z",
+        "created_at": "2023-09-23T18:39:34.760Z",
+        "updated_at": "2023-09-24T02:57:57.774Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f41ab7f6-10b8-4bd4-b9b4-fd0c51c27e80",
+        "email": "Carissa_Cartwright57@roq.tech",
+        "firstName": "Okey",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "163fac61-0396-4d5f-9e22-5e5c4367ed92",
+        "email": "Violette65@roq.tech",
+        "firstName": "Ardella",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1131.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7f06dd7-3e41-44d1-900b-6b8cc775f246",
+        "email": "Eldridge_Mosciski@roq.tech",
+        "firstName": "Garret",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/115.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d68beea-13da-44cf-babb-4dca14a5489d",
+        "email": "Schuyler_Beer@roq.tech",
+        "firstName": "Isobel",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8295a963-a823-4220-81f3-b024abf10d74",
+        "email": "Johan.Runolfsson@roq.tech",
+        "firstName": "Victor",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32802537",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "166dd36b-d72b-4e77-a36e-60afc1f47fd6",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T05:22:33.817Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-23T21:16:12.684Z",
+        "updated_at": "2023-09-24T09:24:50.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe826051-2e3e-4b4f-8cd5-ef6ec073ffbc",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T08:46:47.547Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T12:25:39.194Z",
+        "updated_at": "2023-09-24T01:56:50.924Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ef4b809-1f00-4c7d-9c41-53f858b16219",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "dob": "2023-09-24T14:14:47.508Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T15:23:32.841Z",
+        "updated_at": "2023-09-23T20:04:37.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7b24b7d-6996-4030-8570-ce1afd760d60",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "dob": "2023-09-24T00:09:21.228Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T06:13:50.682Z",
+        "updated_at": "2023-09-24T16:12:28.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03b6d45a-c0e5-42e3-bc9b-61305b2465bf",
+        "first_name": "David",
+        "last_name": "Brown",
+        "dob": "2023-09-24T06:52:56.553Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T09:33:27.585Z",
+        "updated_at": "2023-09-24T14:44:54.314Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "45c0a711-b30f-4820-9f28-4a30ce8179dc",
+        "password_reset_token": "abc123",
+        "password_reset_expires": "2023-09-23T20:05:38.888Z",
+        "password_updated_at": "2023-09-24T06:21:30.244Z",
+        "passwordless_token": "pqr678",
+        "multi_factor_auth_token": "456def",
+        "created_at": "2023-09-24T01:57:54.439Z",
+        "updated_at": "2023-09-24T08:02:41.399Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "629a68e7-afb3-45cd-8a7a-bd717456805a",
+        "password_reset_token": "def456",
+        "password_reset_expires": "2023-09-24T12:36:10.171Z",
+        "password_updated_at": "2023-09-24T13:37:16.329Z",
+        "passwordless_token": "stu901",
+        "multi_factor_auth_token": "789ghi",
+        "created_at": "2023-09-24T11:11:31.734Z",
+        "updated_at": "2023-09-24T00:25:46.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f20012be-2931-4960-b169-a658e57b71f8",
+        "password_reset_token": "ghi789",
+        "password_reset_expires": "2023-09-23T22:45:43.174Z",
+        "password_updated_at": "2023-09-24T06:27:32.589Z",
+        "passwordless_token": "vwx234",
+        "multi_factor_auth_token": "012jkl",
+        "created_at": "2023-09-24T10:44:16.187Z",
+        "updated_at": "2023-09-24T07:52:09.937Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5682ccb6-2626-4fed-8bcb-68be130867ac",
+        "password_reset_token": "jkl012",
+        "password_reset_expires": "2023-09-24T15:18:05.914Z",
+        "password_updated_at": "2023-09-24T00:17:20.847Z",
+        "passwordless_token": "yz567",
+        "multi_factor_auth_token": "345mno",
+        "created_at": "2023-09-24T11:52:35.747Z",
+        "updated_at": "2023-09-24T10:39:42.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07451a0c-efa9-46e9-8ac8-b92c635ea511",
+        "password_reset_token": "mno345",
+        "password_reset_expires": "2023-09-23T22:22:30.002Z",
+        "password_updated_at": "2023-09-24T06:50:54.980Z",
+        "passwordless_token": "123abc",
+        "multi_factor_auth_token": "678pqr",
+        "created_at": "2023-09-23T19:29:46.677Z",
+        "updated_at": "2023-09-24T02:19:30.359Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "0b01724a-1fd0-4eef-b0e6-a243f587bf75",
+        "error_code": 70838,
+        "error_message": "Error 1",
+        "occurred_at": "2023-09-24T08:38:42.275Z",
+        "created_at": "2023-09-23T20:41:20.866Z",
+        "updated_at": "2023-09-23T21:59:47.565Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e516bf0-af28-4772-bbc4-ab0bf2d6b92e",
+        "error_code": 62442,
+        "error_message": "Error 2",
+        "occurred_at": "2023-09-23T21:29:55.836Z",
+        "created_at": "2023-09-24T15:22:38.238Z",
+        "updated_at": "2023-09-24T08:58:02.128Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0fd2497-d248-4d71-b2bc-7922659da8c3",
+        "error_code": 50465,
+        "error_message": "Error 3",
+        "occurred_at": "2023-09-24T09:27:47.925Z",
+        "created_at": "2023-09-24T02:15:11.928Z",
+        "updated_at": "2023-09-24T02:28:25.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd5ed9af-45a8-4b26-9222-0e40069c581b",
+        "error_code": 61527,
+        "error_message": "Error 4",
+        "occurred_at": "2023-09-23T23:44:47.257Z",
+        "created_at": "2023-09-23T19:59:34.911Z",
+        "updated_at": "2023-09-24T09:48:36.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca598fd6-a0a8-4693-b662-ed2f5ce5aebf",
+        "error_code": 43947,
+        "error_message": "Error 5",
+        "occurred_at": "2023-09-23T21:29:23.951Z",
+        "created_at": "2023-09-23T17:16:04.828Z",
+        "updated_at": "2023-09-24T12:22:34.686Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "a37bd0ee-e9ce-4613-8adc-0283af084f9a",
+        "jwt_token": "token1",
+        "expires_at": "2023-09-24T06:14:16.596Z",
+        "created_at": "2023-09-24T13:55:03.113Z",
+        "updated_at": "2023-09-24T02:44:13.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2dd671c-2a36-43b0-8645-23db481f2639",
+        "jwt_token": "token2",
+        "expires_at": "2023-09-24T09:17:45.063Z",
+        "created_at": "2023-09-24T14:52:54.626Z",
+        "updated_at": "2023-09-23T21:15:09.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "419b6fe3-69a0-43bf-9430-878741133c0f",
+        "jwt_token": "token3",
+        "expires_at": "2023-09-24T09:53:28.292Z",
+        "created_at": "2023-09-24T03:42:02.057Z",
+        "updated_at": "2023-09-23T19:36:24.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60967472-0778-449e-bdd8-05a7845573b7",
+        "jwt_token": "token4",
+        "expires_at": "2023-09-23T22:13:24.404Z",
+        "created_at": "2023-09-23T17:36:24.511Z",
+        "updated_at": "2023-09-23T19:23:03.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b05aeb0-1dbe-41bf-8ca4-ffcd8d6c5fe1",
+        "jwt_token": "token5",
+        "expires_at": "2023-09-23T21:28:02.086Z",
+        "created_at": "2023-09-24T10:34:13.735Z",
+        "updated_at": "2023-09-23T21:20:28.563Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "001d921e-66f7-4df4-8794-4a76515f1f4e",
+        "email": "Jordyn_Quigley72@roq.tech",
+        "firstName": "Gardner",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1880c1a9-e9ee-4948-bffd-f421e2a399ca",
+        "email": "Dayana.Medhurst@roq.tech",
+        "firstName": "Melody",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70618265",
+        "tenantId": null
+      },
+      {
+        "reference": "f762e615-2413-49bc-8293-e8cf541d9c3d",
+        "email": "Ramona29@roq.tech",
+        "firstName": "Pearlie",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/272.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75a6d0df-d045-4c96-a815-bc9dd3889e49",
+        "email": "Geovanni_Kozey48@roq.tech",
+        "firstName": "Cameron",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92181867",
+        "tenantId": null
+      },
+      {
+        "reference": "26286e19-23b7-47da-9c12-6e659f2e8418",
+        "email": "Garry.White@roq.tech",
+        "firstName": "Serena",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "ec6e82a1-f244-49b4-baef-1c487f0a67ae",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T03:35:03.510Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-23T19:48:14.104Z",
+        "updated_at": "2023-09-24T14:40:13.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b95554a-aa19-42e4-9b22-81615b3c5b51",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T02:48:18.995Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T15:39:21.294Z",
+        "updated_at": "2023-09-24T03:43:13.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a01f844a-e668-4466-9886-aaa0543f906d",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-23T23:33:23.622Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T15:16:04.760Z",
+        "updated_at": "2023-09-24T02:23:30.656Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a11dbc34-03df-4140-ae30-7a13346edf4e",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T12:29:34.972Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-23T21:17:45.418Z",
+        "updated_at": "2023-09-23T18:12:07.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e696813-fd3a-4060-b87b-70fdc38eecd3",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "dob": "2023-09-24T16:29:46.974Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T07:18:22.587Z",
+        "updated_at": "2023-09-23T18:37:37.389Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "ecfca4da-3772-4804-923d-53b69e3d2d65",
+        "password_reset_token": "abc123",
+        "password_reset_expires": "2023-09-23T22:53:38.356Z",
+        "password_updated_at": "2023-09-24T13:33:57.252Z",
+        "passwordless_token": "pqr678",
+        "multi_factor_auth_token": "456def",
+        "created_at": "2023-09-24T15:45:03.857Z",
+        "updated_at": "2023-09-24T15:57:40.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ee9d65f-d7e7-4edc-bf05-d381ac03ba04",
+        "password_reset_token": "def456",
+        "password_reset_expires": "2023-09-24T00:26:19.032Z",
+        "password_updated_at": "2023-09-24T05:39:10.673Z",
+        "passwordless_token": "stu901",
+        "multi_factor_auth_token": "789ghi",
+        "created_at": "2023-09-24T12:59:25.678Z",
+        "updated_at": "2023-09-24T04:14:19.958Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "431e8156-9c6f-4858-ad83-ad1323ce7261",
+        "password_reset_token": "ghi789",
+        "password_reset_expires": "2023-09-23T19:29:36.512Z",
+        "password_updated_at": "2023-09-23T21:10:58.570Z",
+        "passwordless_token": "vwx234",
+        "multi_factor_auth_token": "012jkl",
+        "created_at": "2023-09-24T15:57:34.846Z",
+        "updated_at": "2023-09-23T20:29:25.554Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21e7570d-a459-4cd9-aac9-4dddcfa29040",
+        "password_reset_token": "jkl012",
+        "password_reset_expires": "2023-09-24T10:14:00.726Z",
+        "password_updated_at": "2023-09-24T05:51:37.990Z",
+        "passwordless_token": "yz567",
+        "multi_factor_auth_token": "345mno",
+        "created_at": "2023-09-24T11:39:29.492Z",
+        "updated_at": "2023-09-24T05:45:19.869Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f3ecad8-ec70-46ea-bbf9-fdaf4011c58b",
+        "password_reset_token": "mno345",
+        "password_reset_expires": "2023-09-23T18:44:08.046Z",
+        "password_updated_at": "2023-09-24T05:57:21.195Z",
+        "passwordless_token": "123abc",
+        "multi_factor_auth_token": "678pqr",
+        "created_at": "2023-09-24T01:46:48.423Z",
+        "updated_at": "2023-09-23T18:03:58.959Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "a79be6de-a567-4436-9a67-8d93ca47c2ff",
+        "error_code": 70082,
+        "error_message": "Invalid credentials",
+        "occurred_at": "2023-09-24T08:54:31.394Z",
+        "created_at": "2023-09-23T20:15:33.130Z",
+        "updated_at": "2023-09-24T16:03:07.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4a3cf76-8f4f-4c9c-adf5-198ad0673308",
+        "error_code": 56085,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-23T19:19:24.917Z",
+        "created_at": "2023-09-24T08:34:16.774Z",
+        "updated_at": "2023-09-24T16:41:54.065Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3c198fb-0b84-4d7d-9227-fe5436a14e45",
+        "error_code": 99900,
+        "error_message": "Page not found",
+        "occurred_at": "2023-09-24T04:38:20.045Z",
+        "created_at": "2023-09-24T10:51:39.165Z",
+        "updated_at": "2023-09-23T22:18:29.541Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c3f8df7-56b7-4829-a6c1-5a53b6d5d3a8",
+        "error_code": 57817,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T03:45:40.171Z",
+        "created_at": "2023-09-24T07:58:25.390Z",
+        "updated_at": "2023-09-24T06:40:57.350Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09417c22-8682-469e-affb-20432ef16c2c",
+        "error_code": 81218,
+        "error_message": "Invalid request",
+        "occurred_at": "2023-09-24T14:27:28.324Z",
+        "created_at": "2023-09-24T14:07:38.858Z",
+        "updated_at": "2023-09-24T15:44:40.113Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "071e4e61-a971-4db2-8659-eb7a617c3c4f",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T09:36:38.785Z",
+        "created_at": "2023-09-24T10:27:48.445Z",
+        "updated_at": "2023-09-24T03:06:29.504Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e977ff19-f08a-4e89-a3ef-e1b7c8f0ebc6",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T06:54:07.421Z",
+        "created_at": "2023-09-24T03:43:47.306Z",
+        "updated_at": "2023-09-23T17:46:48.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "307eaabe-a65d-4d49-b3d5-e29e315e134c",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-23T23:30:45.463Z",
+        "created_at": "2023-09-23T16:55:05.664Z",
+        "updated_at": "2023-09-24T03:40:54.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc1c0f89-72e8-4813-95a7-666ffa1353ac",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T14:37:58.459Z",
+        "created_at": "2023-09-24T02:45:42.611Z",
+        "updated_at": "2023-09-24T02:12:25.773Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b964b665-62ee-40c0-983c-54cb3fa92585",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T07:01:12.376Z",
+        "created_at": "2023-09-24T01:26:10.151Z",
+        "updated_at": "2023-09-24T04:16:04.490Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "80e7c398-795b-4258-a2b1-c5b52c22be2e",
+        "email": "Ressie.Stroman@roq.tech",
+        "firstName": "Julio",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33218609",
+        "tenantId": null
+      },
+      {
+        "reference": "8c3e6013-f722-479f-9476-4bac941cdade",
+        "email": "Gerald33@roq.tech",
+        "firstName": "Florence",
+        "lastName": "Wunsch-Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19363866",
+        "tenantId": null
+      },
+      {
+        "reference": "b0670014-e1f1-4c65-be81-c4f57ccdb8a4",
+        "email": "Bettie93@roq.tech",
+        "firstName": "Brendan",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5781006",
+        "tenantId": null
+      },
+      {
+        "reference": "5d0a4a90-f634-41b4-b94e-c3ec3a12afe9",
+        "email": "Cecelia.Volkman44@roq.tech",
+        "firstName": "Winnifred",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42667213",
+        "tenantId": null
+      },
+      {
+        "reference": "46eea2ef-aa64-4c6f-a2c2-c3282d1486ec",
+        "email": "Rosamond.Littel@roq.tech",
+        "firstName": "Aleen",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97375437",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "646a3807-19a9-44d9-a0e5-1d9e779d4c8c",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-23T18:28:51.153Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-23T21:52:13.095Z",
+        "updated_at": "2023-09-23T18:02:47.861Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d61904b-7d83-4e85-b541-a597ea9b5abe",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-23T22:09:20.398Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T08:53:44.423Z",
+        "updated_at": "2023-09-24T06:16:08.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aff0cb5-1089-405f-8201-1f5bb87b2ad4",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T10:09:33.040Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T07:41:30.518Z",
+        "updated_at": "2023-09-23T23:06:13.134Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec4306dd-264b-4c27-9750-089094b17dab",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T05:22:43.665Z",
+        "address": "321 Pine St",
+        "phone_number": "999-888-7777",
+        "created_at": "2023-09-24T05:55:49.984Z",
+        "updated_at": "2023-09-23T17:24:23.185Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0827c565-6325-409c-bbde-c5b09a7f5782",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "dob": "2023-09-23T21:49:35.119Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T11:05:34.717Z",
+        "updated_at": "2023-09-24T14:31:49.648Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "8c38cf1b-d643-4614-8ab7-a24b78f136f4",
+        "password_reset_token": "AbCdEfGhIjKlMnOpQrStUvWxYz1234567890",
+        "password_reset_expires": "2023-09-24T02:09:26.888Z",
+        "password_updated_at": "2023-09-24T14:04:18.366Z",
+        "passwordless_token": "AbCdEfGhIjKlMnOpQrStUvWxYz1234567890",
+        "multi_factor_auth_token": "AbCdEfGhIjKlMnOpQrStUvWxYz1234567890",
+        "created_at": "2023-09-24T01:09:26.682Z",
+        "updated_at": "2023-09-24T13:52:43.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b3bf5a0-aa3a-48f4-9b4d-d6527e62d488",
+        "password_reset_token": "9876543210ZyXwVuTsRqPoNmLkJiHgFeDcBa",
+        "password_reset_expires": "2023-09-24T11:40:29.253Z",
+        "password_updated_at": "2023-09-24T06:06:05.834Z",
+        "passwordless_token": "9876543210ZyXwVuTsRqPoNmLkJiHgFeDcBa",
+        "multi_factor_auth_token": "9876543210ZyXwVuTsRqPoNmLkJiHgFeDcBa",
+        "created_at": "2023-09-24T04:58:52.945Z",
+        "updated_at": "2023-09-24T16:23:23.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7312ee21-a170-4d60-b6e5-f417df2a9707",
+        "password_reset_token": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "password_reset_expires": "2023-09-24T16:11:07.712Z",
+        "password_updated_at": "2023-09-24T06:56:53.060Z",
+        "passwordless_token": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "multi_factor_auth_token": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "created_at": "2023-09-24T08:17:40.972Z",
+        "updated_at": "2023-09-24T13:44:51.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c232b55d-7bc5-415a-b9b3-a3e178cd7ec2",
+        "password_reset_token": "q7p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1",
+        "password_reset_expires": "2023-09-24T09:23:41.535Z",
+        "password_updated_at": "2023-09-23T19:09:51.446Z",
+        "passwordless_token": "q7p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1",
+        "multi_factor_auth_token": "q7p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1",
+        "created_at": "2023-09-23T21:46:10.911Z",
+        "updated_at": "2023-09-23T23:01:39.969Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83f070ae-90b2-4244-85bf-a45f4e8f6d0c",
+        "password_reset_token": "passwordresettoken1234567890AbCdEfGhIjKlMnOpQrStUvWxYz",
+        "password_reset_expires": "2023-09-23T22:53:03.402Z",
+        "password_updated_at": "2023-09-24T09:23:53.203Z",
+        "passwordless_token": "passwordlesstoken1234567890AbCdEfGhIjKlMnOpQrStUvWxYz",
+        "multi_factor_auth_token": "multifactorauthtoken1234567890AbCdEfGhIjKlMnOpQrStUvWxYz",
+        "created_at": "2023-09-24T03:38:06.485Z",
+        "updated_at": "2023-09-24T03:19:35.854Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "8c76d7b5-20aa-436e-a1a5-921cc0c08820",
+        "error_code": 37924,
+        "error_message": "An error occurred.",
+        "occurred_at": "2023-09-24T13:25:58.464Z",
+        "created_at": "2023-09-24T02:30:08.765Z",
+        "updated_at": "2023-09-24T11:03:11.852Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a8ce4aa-5c0e-4667-96e1-7dde92ed19f6",
+        "error_code": 89707,
+        "error_message": "Invalid input.",
+        "occurred_at": "2023-09-24T01:43:56.168Z",
+        "created_at": "2023-09-24T06:56:40.964Z",
+        "updated_at": "2023-09-23T18:52:54.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ace617e-d914-46a0-b6cd-bff8adb897df",
+        "error_code": 414,
+        "error_message": "Access denied.",
+        "occurred_at": "2023-09-24T12:04:55.357Z",
+        "created_at": "2023-09-24T15:57:37.958Z",
+        "updated_at": "2023-09-24T03:12:20.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "705db15f-ddb1-44b2-89d6-77733f3b73d0",
+        "error_code": 23280,
+        "error_message": "Server error.",
+        "occurred_at": "2023-09-24T13:23:56.161Z",
+        "created_at": "2023-09-23T18:08:47.362Z",
+        "updated_at": "2023-09-24T04:26:32.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c863a89-f6c8-49be-b716-58b394e809f0",
+        "error_code": 58512,
+        "error_message": "Authentication failed.",
+        "occurred_at": "2023-09-24T10:17:56.120Z",
+        "created_at": "2023-09-24T12:40:14.807Z",
+        "updated_at": "2023-09-23T21:46:51.638Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "b117dc62-6763-4467-9ff9-b15b60b94e54",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T00:25:52.371Z",
+        "created_at": "2023-09-23T23:09:01.766Z",
+        "updated_at": "2023-09-24T00:55:16.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0515da4-4691-4139-9a29-abd1de1123eb",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T13:14:13.074Z",
+        "created_at": "2023-09-23T19:52:10.956Z",
+        "updated_at": "2023-09-24T15:19:55.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "584913fc-b092-4de7-95a1-97af2a553531",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T17:11:37.354Z",
+        "created_at": "2023-09-24T09:31:21.572Z",
+        "updated_at": "2023-09-24T10:04:13.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba7e1d5-233d-4de2-b4dd-ef8b3d9065f5",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T12:36:41.450Z",
+        "created_at": "2023-09-24T08:50:37.047Z",
+        "updated_at": "2023-09-24T13:12:29.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc016c8e-dd93-4857-825e-164a4491e889",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T22:32:04.203Z",
+        "created_at": "2023-09-24T14:48:27.582Z",
+        "updated_at": "2023-09-24T14:31:10.269Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "596dec0a-676b-458d-a945-d726d7906f04",
+        "email": "Ronny67@roq.tech",
+        "firstName": "General",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51211517",
+        "tenantId": null
+      },
+      {
+        "reference": "a62d3e71-a1bf-46c1-acff-5317562f7927",
+        "email": "Gavin.Balistreri14@roq.tech",
+        "firstName": "Dagmar",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/726.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dedc62c7-1d38-4d36-a36a-baac9429d6b5",
+        "email": "Petra.Collier38@roq.tech",
+        "firstName": "Bennie",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20617650",
+        "tenantId": null
+      },
+      {
+        "reference": "eded187c-1309-437d-84e6-361329a8dddd",
+        "email": "Guy59@roq.tech",
+        "firstName": "Roman",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/229.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da8e2cc8-119a-41ef-a81e-c2c17615ed74",
+        "email": "Crystel66@roq.tech",
+        "firstName": "Bryce",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4302628",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "b25b1cda-b400-4abd-a5b4-852dad699a8d",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T07:49:16.771Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-24T00:40:32.676Z",
+        "updated_at": "2023-09-24T02:25:04.815Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "049647b2-097f-4ee8-98ff-1fcb64af3e89",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-24T01:31:37.587Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-23T18:48:10.001Z",
+        "updated_at": "2023-09-23T19:54:41.065Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6af6c22-807a-4b21-a9b1-92004db60ebd",
+        "first_name": "Alex",
+        "last_name": "Wilson",
+        "dob": "2023-09-24T08:03:05.881Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T00:16:39.300Z",
+        "updated_at": "2023-09-24T04:53:17.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c2b0d57-cb29-422f-9fda-89040bfec97a",
+        "first_name": "Emily",
+        "last_name": "Jones",
+        "dob": "2023-09-24T04:57:26.115Z",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T05:20:30.316Z",
+        "updated_at": "2023-09-24T12:39:37.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51be7e52-e127-4095-98f6-4a41ca090cf5",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T02:52:41.793Z",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T05:36:25.757Z",
+        "updated_at": "2023-09-24T12:37:39.619Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "6e3df79b-a4f3-4208-bcd6-7affab1cbe09",
+        "password_reset_token": "a1b2c3d4e5",
+        "password_reset_expires": "2023-09-24T04:15:16.985Z",
+        "password_updated_at": "2023-09-24T09:18:43.546Z",
+        "passwordless_token": "x5y4z3w2v1",
+        "multi_factor_auth_token": "1a2b3c4d5e",
+        "created_at": "2023-09-24T06:07:18.630Z",
+        "updated_at": "2023-09-23T23:54:42.393Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "179d4d74-2eff-4a60-bc7c-7124321b6a1a",
+        "password_reset_token": "f6g7h8i9j0",
+        "password_reset_expires": "2023-09-23T18:42:45.380Z",
+        "password_updated_at": "2023-09-23T17:45:32.945Z",
+        "passwordless_token": "t0s9r8q7p6",
+        "multi_factor_auth_token": "6f7g8h9i0j",
+        "created_at": "2023-09-24T08:17:44.950Z",
+        "updated_at": "2023-09-24T14:06:44.877Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff255ea8-b1c9-49c6-9e51-dd2fa1cec2f6",
+        "password_reset_token": "k1l2m3n4o5",
+        "password_reset_expires": "2023-09-24T10:23:20.636Z",
+        "password_updated_at": "2023-09-24T07:33:00.445Z",
+        "passwordless_token": "o5n4m3l2k1",
+        "multi_factor_auth_token": "1k2l3m4n5o",
+        "created_at": "2023-09-23T17:10:09.126Z",
+        "updated_at": "2023-09-24T01:41:43.639Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "165abc7d-0f1d-41d5-a046-aad2bfea115d",
+        "password_reset_token": "p6q7r8s9t0",
+        "password_reset_expires": "2023-09-23T19:07:25.820Z",
+        "password_updated_at": "2023-09-24T12:24:22.166Z",
+        "passwordless_token": "j0i9h8g7f6",
+        "multi_factor_auth_token": "6p7q8r9s0t",
+        "created_at": "2023-09-24T02:59:54.923Z",
+        "updated_at": "2023-09-24T15:50:18.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e777174-3afa-483c-ae2e-95b50569236b",
+        "password_reset_token": "u1v2w3x4y5",
+        "password_reset_expires": "2023-09-24T04:04:36.188Z",
+        "password_updated_at": "2023-09-24T13:19:04.840Z",
+        "passwordless_token": "e5d4c3b2a1",
+        "multi_factor_auth_token": "1u2v3w4x5y",
+        "created_at": "2023-09-24T07:28:14.230Z",
+        "updated_at": "2023-09-24T05:34:16.531Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "c1a2ea80-846b-4f66-a753-d5d33a45c6f2",
+        "error_code": 13660,
+        "error_message": "Invalid credentials",
+        "occurred_at": "2023-09-24T11:10:06.466Z",
+        "created_at": "2023-09-23T20:58:15.038Z",
+        "updated_at": "2023-09-23T19:38:01.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eec9eb93-361c-472d-870e-f678291fd576",
+        "error_code": 60943,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-24T09:48:35.777Z",
+        "created_at": "2023-09-24T03:32:43.572Z",
+        "updated_at": "2023-09-23T22:30:14.068Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a292741e-82db-45c6-8ca0-7914a58b8a13",
+        "error_code": 7637,
+        "error_message": "Page not found",
+        "occurred_at": "2023-09-24T11:27:24.426Z",
+        "created_at": "2023-09-24T13:40:42.807Z",
+        "updated_at": "2023-09-24T10:23:16.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7749720d-c67f-4cfd-a9f2-2f7aec05450c",
+        "error_code": 38107,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T02:06:01.615Z",
+        "created_at": "2023-09-24T15:32:12.722Z",
+        "updated_at": "2023-09-23T19:08:17.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d538c039-b58b-4182-830e-6994c0f705e2",
+        "error_code": 58920,
+        "error_message": "Invalid request",
+        "occurred_at": "2023-09-23T18:42:12.549Z",
+        "created_at": "2023-09-24T09:33:58.348Z",
+        "updated_at": "2023-09-24T15:23:33.535Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "03d8be71-b929-4c51-9d54-9cf302f8a8b1",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T10:31:48.041Z",
+        "created_at": "2023-09-24T10:25:45.220Z",
+        "updated_at": "2023-09-24T09:28:08.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6982f064-9084-46a4-a57b-3a5b02713295",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-23T23:10:32.428Z",
+        "created_at": "2023-09-23T17:28:42.922Z",
+        "updated_at": "2023-09-23T23:56:31.720Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdb56580-2383-4ca9-8518-db3ed41649b0",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T15:00:55.844Z",
+        "created_at": "2023-09-23T20:27:39.599Z",
+        "updated_at": "2023-09-24T10:13:03.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee904548-2a56-46c9-937b-0c5ed0551b03",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T11:21:00.783Z",
+        "created_at": "2023-09-24T12:15:54.325Z",
+        "updated_at": "2023-09-24T10:53:37.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b693bfb6-5eb3-44cf-9237-df30c984c854",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires_at": "2023-09-24T14:58:18.484Z",
+        "created_at": "2023-09-24T04:40:07.011Z",
+        "updated_at": "2023-09-24T10:20:27.688Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3ae2129c-9402-431c-b609-2640807c888f",
+        "email": "Brice.Franecki@roq.tech",
+        "firstName": "Ciara",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53eece35-b957-4db1-bb97-a2b4de723893",
+        "email": "Jordy82@roq.tech",
+        "firstName": "Sandrine",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8861463",
+        "tenantId": null
+      },
+      {
+        "reference": "e0d61bbd-ff79-4570-b213-df21df11ed36",
+        "email": "Arvid.Rath7@roq.tech",
+        "firstName": "Andy",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4187cb40-9b67-4e43-bd00-4cbf91c6b29b",
+        "email": "Martin.Durgan54@roq.tech",
+        "firstName": "Katharina",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/917.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc38ae6d-3f2f-4531-bed4-3f626ad5bb2c",
+        "email": "Margarett.Parker10@roq.tech",
+        "firstName": "Amaya",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "0f8b8646-97a3-4606-b828-7bf2e242cc0a",
+        "first_name": "John",
+        "last_name": "Doe",
+        "dob": "2023-09-24T16:12:26.421Z",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-24T04:28:58.104Z",
+        "updated_at": "2023-09-24T07:54:31.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dcda396-b343-41c3-a0e9-d30f1bf6dc46",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "dob": "2023-09-23T17:06:16.994Z",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-24T07:53:51.608Z",
+        "updated_at": "2023-09-24T02:42:31.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16ecc34a-53cd-4ec5-84d3-61a9c24e8468",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "dob": "2023-09-24T02:23:25.076Z",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-24T08:53:08.757Z",
+        "updated_at": "2023-09-24T07:57:28.381Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2c547a5-95db-46c2-a637-9467e77d6dc7",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "dob": "2023-09-24T08:23:10.278Z",
+        "address": "321 Maple St",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-24T05:42:48.898Z",
+        "updated_at": "2023-09-23T19:13:19.265Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2d64858-f98a-48c2-9c49-f971d53804d2",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "dob": "2023-09-23T23:37:01.403Z",
+        "address": "654 Pine St",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-24T03:43:27.031Z",
+        "updated_at": "2023-09-24T12:47:30.818Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "password_management": [
+      {
+        "id": "6990257f-eb04-4d07-b631-b2cc581177e4",
+        "password_reset_token": "ABC123",
+        "password_reset_expires": "2023-09-24T11:57:40.182Z",
+        "password_updated_at": "2023-09-24T05:09:03.893Z",
+        "passwordless_token": "XYZ987",
+        "multi_factor_auth_token": "123ABC",
+        "created_at": "2023-09-23T23:42:02.351Z",
+        "updated_at": "2023-09-23T19:21:57.877Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85bdd7e5-7fe6-4710-87aa-354399ead062",
+        "password_reset_token": "DEF456",
+        "password_reset_expires": "2023-09-24T02:35:39.385Z",
+        "password_updated_at": "2023-09-24T11:40:28.448Z",
+        "passwordless_token": "PQR654",
+        "multi_factor_auth_token": "456DEF",
+        "created_at": "2023-09-24T08:59:08.811Z",
+        "updated_at": "2023-09-24T11:26:59.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c40938c-aa04-4063-b22f-2ce72360ce13",
+        "password_reset_token": "GHI789",
+        "password_reset_expires": "2023-09-23T19:44:08.489Z",
+        "password_updated_at": "2023-09-24T07:24:00.417Z",
+        "passwordless_token": "LMN321",
+        "multi_factor_auth_token": "789GHI",
+        "created_at": "2023-09-24T01:27:11.193Z",
+        "updated_at": "2023-09-24T13:20:50.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0a0cf89-3c5b-4a40-9445-1e57585a4100",
+        "password_reset_token": "JKL012",
+        "password_reset_expires": "2023-09-24T05:20:47.162Z",
+        "password_updated_at": "2023-09-23T22:30:36.489Z",
+        "passwordless_token": "STU098",
+        "multi_factor_auth_token": "012JKL",
+        "created_at": "2023-09-24T03:18:32.011Z",
+        "updated_at": "2023-09-24T09:27:07.001Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eca315ca-a7c5-4a16-9e27-09e691a19d8d",
+        "password_reset_token": "MNO345",
+        "password_reset_expires": "2023-09-23T21:42:37.881Z",
+        "password_updated_at": "2023-09-24T02:54:41.443Z",
+        "passwordless_token": "VWX432",
+        "multi_factor_auth_token": "345MNO",
+        "created_at": "2023-09-23T18:06:07.680Z",
+        "updated_at": "2023-09-23T18:14:36.397Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "error_response": [
+      {
+        "id": "4aa9948f-f145-4506-be70-ff28359f1561",
+        "error_code": 81089,
+        "error_message": "Invalid input",
+        "occurred_at": "2023-09-24T14:33:31.995Z",
+        "created_at": "2023-09-23T21:58:55.607Z",
+        "updated_at": "2023-09-24T14:04:59.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60d6b139-f535-410c-a318-7563a91b7cfc",
+        "error_code": 31128,
+        "error_message": "Authentication failed",
+        "occurred_at": "2023-09-24T11:18:27.616Z",
+        "created_at": "2023-09-24T06:21:08.884Z",
+        "updated_at": "2023-09-24T05:46:00.944Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48895aca-9379-47b7-8905-a78ed672c7fa",
+        "error_code": 64241,
+        "error_message": "Resource not found",
+        "occurred_at": "2023-09-24T03:47:19.616Z",
+        "created_at": "2023-09-23T17:38:32.356Z",
+        "updated_at": "2023-09-24T14:31:47.626Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebb87697-2d0c-41b0-861b-7b0a0b83e44b",
+        "error_code": 35682,
+        "error_message": "Internal server error",
+        "occurred_at": "2023-09-23T21:58:54.989Z",
+        "created_at": "2023-09-24T13:53:05.738Z",
+        "updated_at": "2023-09-23T22:29:39.912Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de2092ca-cdf8-4efe-ab69-a43c6bbd60e4",
+        "error_code": 36641,
+        "error_message": "Access denied",
+        "occurred_at": "2023-09-24T02:41:04.471Z",
+        "created_at": "2023-09-24T02:58:41.625Z",
+        "updated_at": "2023-09-24T08:30:45.307Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "auth_token": [
+      {
+        "id": "54462b99-18c1-4954-8eb5-c5075b1d22fb",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T10:52:26.755Z",
+        "created_at": "2023-09-24T13:08:45.210Z",
+        "updated_at": "2023-09-24T03:31:38.434Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fccab43b-1acf-49ee-96c6-be909217586e",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-23T19:16:03.554Z",
+        "created_at": "2023-09-24T11:55:28.460Z",
+        "updated_at": "2023-09-24T15:12:36.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aab2cf50-5c69-468e-920d-b41c0c65155a",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-23T22:04:07.925Z",
+        "created_at": "2023-09-24T08:30:16.907Z",
+        "updated_at": "2023-09-24T06:17:08.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4e83237-464f-484b-a351-104d5db009a2",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T01:56:07.677Z",
+        "created_at": "2023-09-24T01:53:19.691Z",
+        "updated_at": "2023-09-23T19:50:54.405Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4219db60-f62c-420c-bb82-74d10ffa1983",
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        "expires_at": "2023-09-24T08:32:27.000Z",
+        "created_at": "2023-09-24T13:34:26.249Z",
+        "updated_at": "2023-09-23T23:18:57.404Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cea75c59-2620-4879-9061-4b93ee4a160f",
+        "email": "Reginald.Ebert65@roq.tech",
+        "firstName": "Kristina",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93126287",
+        "tenantId": null
+      },
+      {
+        "reference": "18c3e810-d0b7-4fdc-b7ee-8f2b8be92673",
+        "email": "Earl.Hartmann44@roq.tech",
+        "firstName": "Skylar",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83532745",
+        "tenantId": null
+      },
+      {
+        "reference": "f2ca5a64-bdc1-491c-a658-0a884ca478d0",
+        "email": "Myrtis1@roq.tech",
+        "firstName": "Adrien",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4774172",
+        "tenantId": null
+      },
+      {
+        "reference": "6c7ae54a-185f-455e-8aae-99df2bd9d2bc",
+        "email": "Malachi.Roob25@roq.tech",
+        "firstName": "Maximilian",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55892486",
+        "tenantId": null
+      },
+      {
+        "reference": "6a0e6935-6d72-42fc-a7c2-8b40c78605e9",
+        "email": "Rosemary23@roq.tech",
+        "firstName": "Abdullah",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/611.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
